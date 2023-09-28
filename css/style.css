@@ -343,6 +343,22 @@ button {
     background-position: bottom center;
 }
 
+.portfolio_wrapper .card .see-project-btn {
+    position: absolute;
+    bottom: -50px; /* Position it outside the card */
+    left: 0;
+    width: 100%;
+    border: none;
+    background-color: rgba(21, 3, 40, 0.8); /* Background color for the button */
+    padding: 7px;
+    transition: transform 1s ease; /* Add a smooth transition for the transform property */
+}
+
+.portfolio_wrapper .card:hover .see-project-btn {
+    bottom: 0;
+    transform: translateY(0);
+}
+
 /* 6 Contact */
 .contact_wrapper .form-control,
 .contact_wrapper textarea {
