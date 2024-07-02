@@ -135,6 +135,10 @@ p {
     font-weight: 400;
 }
 
+li{
+    color: var(--text-gray);
+}
+
 .subtitle {
     display: inline-block;
     font-weight: 600;
@@ -232,7 +236,8 @@ button {
 .banner_wrapper {
     width: 100%;
     height: auto;
-    min-height: 650px;
+    /* min-height: 650px; */
+    min-height: 915px;
     background-image: url('../images/Untitled\ design.jpg');
     background-repeat: no-repeat;
     background-position: center center;
